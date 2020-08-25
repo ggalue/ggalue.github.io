@@ -1,0 +1,68 @@
+@import url("card.css");
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+  background-color: #F4F1DE;
+  padding: 40px;
+  min-height: 100vh;}
+
+a {
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    text-decoration: none;
+    color: black; }
+
+.heavy h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 80px; }
+
+.personal-info {
+  margin: 10px;
+  padding-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.paragraphs {
+  margin: 10px; }
+  .paragraphs p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px; }
+
+.sections {
+  margin-bottom: 10px;
+  margin-top: 0px; }
+
+.section-title {
+  background-color: #DEDDD9;
+  width: 100%;
+  margin-left: 0px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  padding: 30px;
+  border: 0px;
+  margin-bottom: 10px; }
+
+ul {
+  list-style-type: none;
+  padding: 0px; }
+
+.social-media ul {
+  list-style-type: none;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%; }
+
+.icon {
+  display: inline-block;
+  font-size: 20px; }
+
+.icon i:hover {
+  color: #81B29A;
+  font-size: 30px; }
