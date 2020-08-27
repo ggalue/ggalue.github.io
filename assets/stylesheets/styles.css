@@ -3,7 +3,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 .wrapper {
-  background-color: #F4F1DE;
+  background-color: #fff;
   padding: 40px;
   min-height: 100vh;}
 
@@ -25,6 +25,15 @@ a {
   font-family: 'Open Sans', sans-serif;
 }
 
+.period {
+  color: #E07A5F;
+}
+
+.name {
+  color: #3D405B;
+  font-weight: bold;
+}
+
 .paragraphs {
   margin: 10px; }
   .paragraphs p {
@@ -35,19 +44,20 @@ a {
   margin-bottom: 10px;
   margin-top: 0px; }
 
-.section-title {
-  background-color: #DEDDD9;
-  width: 100%;
-  margin-left: 0px;
-  font-family: 'Open Sans', sans-serif;
-  text-align: left;
-  padding: 30px;
-  border: 0px;
-  margin-bottom: 10px; }
+.list-name {
+  font-weight: bold;
+  font-size: 20px;
+}
 
-ul {
-  list-style-type: none;
-  padding: 0px; }
+.list-title {
+  line-height: normal;
+  font-weight: bold;
+}
+
+.list-date {
+  line-height: 80%;
+  text-transform: uppercase;
+}
 
 .social-media ul {
   list-style-type: none;
@@ -66,3 +76,5 @@ ul {
 .icon i:hover {
   color: #81B29A;
   font-size: 30px; }
+
+
