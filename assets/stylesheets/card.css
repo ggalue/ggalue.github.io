@@ -13,8 +13,16 @@
   text-decoration: none;
 }
 
-.btn-link:hover {
+.btn-link:hover, btn-link:active, btn-link:visited {
   color: #81B29A;
   font-size: 30px;
   text-decoration: none;
+}
+
+img {
+  border: 5px solid #555;
+}
+
+h3 a:hover {
+  color: #81B29A;
 }

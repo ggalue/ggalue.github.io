@@ -12,7 +12,7 @@ a {
   color: black; }
   a:hover {
     text-decoration: none;
-    color: black; }
+    color: black;}
 
 .heavy h1 {
   font-family: 'Open Sans', sans-serif;
@@ -38,16 +38,20 @@ a {
   margin: 10px; }
   .paragraphs p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px; }
+    font-size: 20px;
+}
 
 .sections {
   margin-bottom: 10px;
-  margin-top: 0px; }
+  margin-top: 0px;
+}
 
 .list-name {
   font-weight: bold;
-  font-size: 20px;
-}
+  font-size: 20px; }
+  .list-name a:hover {
+    color: #81B29A;
+  }
 
 .list-title {
   line-height: normal;
@@ -67,14 +71,17 @@ a {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 50%; }
+  width: 50%;
+}
 
 .icon {
   display: inline-block;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .icon i:hover {
   color: #81B29A;
-  font-size: 30px; }
+  font-size: 30px;
+}
 
 
