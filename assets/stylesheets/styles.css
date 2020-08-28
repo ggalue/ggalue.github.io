@@ -32,6 +32,7 @@ a {
 .name {
   color: #3D405B;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .paragraphs {
@@ -48,19 +49,29 @@ a {
 
 .list-name {
   font-weight: bold;
-  font-size: 20px; }
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif; }
   .list-name a:hover {
     color: #81B29A;
   }
+.list-place {
+  line-height: 80%;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: small;
+  font-family: 'Open Sans', sans-serif;
+}
 
 .list-title {
   line-height: normal;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .list-date {
   line-height: 80%;
   text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .social-media ul {
